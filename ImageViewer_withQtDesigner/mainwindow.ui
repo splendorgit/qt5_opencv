@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Image Viewer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icon/windows-10/icon/windows-10/svg/red-eye-1174852.svg</normaloff>:/icon/windows-10/icon/windows-10/svg/red-eye-1174852.svg</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -42,6 +46,10 @@
      <widget class="QPushButton" name="resetSize">
       <property name="text">
        <string>Reset</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resources.qrc">
+        <normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/reload-1214297.svg</normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/reload-1214297.svg</iconset>
       </property>
      </widget>
     </item>
@@ -117,6 +125,10 @@
    </attribute>
   </widget>
   <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/add-new-1214356.svg</normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/add-new-1214356.svg</iconset>
+   </property>
    <property name="text">
     <string>Open</string>
    </property>
@@ -125,6 +137,10 @@
    </property>
   </action>
   <action name="actionExit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/logout-1214656.svg</normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/logout-1214656.svg</iconset>
+   </property>
    <property name="text">
     <string>Exit</string>
    </property>
@@ -133,26 +149,44 @@
    </property>
   </action>
   <action name="actionZoomIn">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/zoom-in-1214278.svg</normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/zoom-in-1214278.svg</iconset>
+   </property>
    <property name="text">
     <string>Zoom In</string>
    </property>
   </action>
   <action name="actionZoomOut">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/zoom-out-1214277.svg</normaloff>:/icon/user-interface-123/icon/user-interface-123/svg/zoom-out-1214277.svg</iconset>
+   </property>
    <property name="text">
     <string>Zoom Out</string>
    </property>
   </action>
   <action name="actionNext">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/windows-10/icon/windows-10/svg/right-arrow-1174858.svg</normaloff>:/icon/windows-10/icon/windows-10/svg/right-arrow-1174858.svg</iconset>
+   </property>
    <property name="text">
     <string>Next</string>
    </property>
   </action>
   <action name="actionPrev">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/windows-10/icon/windows-10/svg/left-arrow-1174845.svg</normaloff>:/icon/windows-10/icon/windows-10/svg/left-arrow-1174845.svg</iconset>
+   </property>
    <property name="text">
     <string>Prev</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
